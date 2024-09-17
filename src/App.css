@@ -1,0 +1,209 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: #2c3e50;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 28px 20px;
+}
+
+.navbar .logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.navbar .nav-links a {
+  color: white;
+  margin-left: 20px;
+  font-size: larger;
+  font: weight 800;
+  text-decoration: none;
+}
+
+.navbar .nav-links a:hover {
+  text-decoration: none;
+  color:#ababaf;
+}
+
+/* Home Page Styles */
+.home {
+  text-align: center;
+}
+
+.banner {
+  background-image: url('C:/Users/varun/OneDrive/Desktop/wallpaperflare.com_wallpaper.jpg'); /* Replace with your image URL */
+  background-size:cover;
+  background-position: center;
+  color: white;
+  padding: 100px 20px;
+  
+}
+
+.banner h1 {
+  font-size: 48px;
+  margin: 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.banner p {
+  font-size: 48px;
+  margin: 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.banner button {
+  padding: 10px 20px;
+  font-size: 18px;
+  color: #2c3e50;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.content {
+  padding: 20px;
+}
+
+.content section {
+  margin-bottom: 2rem;
+}
+
+.content h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  background-color: #2c3e50;
+  color: #d6d6d9;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.content p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.content ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.content ul li {
+  background-color: #f1f1f1;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+}
+
+.cta button {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+/* Transactions Section Styles */
+.transactions {
+  padding: 20px;
+  background-color: white;
+  margin: 20px auto;
+  width: 80%;
+  max-width: 600px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.transactions h2 {
+  margin-top: 0;
+}
+
+.transactions input {
+  margin: 10px 0;
+  padding: 10px;
+  width: calc(100% - 22px);
+  font-size: 16px;
+  background-color: #e5e5f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.transactions .buttons {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.transactions .buttons button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #2c3e50;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.transactions .buttons button:hover {
+  background-color: #1a83bc;
+}
+
+/* Manage Accounts Page Styles */
+.manage-accounts {
+  padding: 20px;
+  background-color: white;
+  margin: 20px auto;
+  width: 80%;
+  max-width: 800px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.manage-accounts h1, .manage-accounts h2 {
+  text-align: center;
+}
+
+.manage-accounts input {
+  margin: 10px 0;
+  padding: 10px;
+  width: calc(100% - 22px);
+  font-size: 16px;
+  background-color: #e5e5f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.manage-accounts button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #2c3e50;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.manage-accounts button:hover {
+  background-color: #1a66bc;
+}
+
+.all-accounts ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.all-accounts li {
+  padding: 10px;
+  background-color: white;
+  margin: 10px 0;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
